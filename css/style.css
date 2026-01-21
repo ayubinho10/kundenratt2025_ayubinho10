@@ -1,4 +1,4 @@
-/* ===== GRUNDINSTÄLLNINGAR ===== */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -15,7 +15,6 @@ body {
   flex-direction: column;
 }
 
-/* ===== HEADER & NAV ===== */
 header {
   background-color: #d9c8b0;
   padding: 20px 40px;
@@ -50,7 +49,6 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* ===== PAGE CONTAINER ===== */
 .page-container,
 .page {
   flex: 1;
@@ -62,7 +60,7 @@ main {
   flex: 1;
 }
 
-/* ===== FOOTER ===== */
+
 footer {
   background-color: #7b8c78;
   color: #fff;
@@ -71,7 +69,7 @@ footer {
   margin-top: auto;
 }
 
-/* ===== STARTSIDA – GRID LAYOUT ===== */
+
 .hero {
   background: linear-gradient(135deg, #d9c8b0 0%, #f6efe8 100%);
   padding: 80px 40px;
@@ -92,7 +90,7 @@ footer {
   margin: 0 auto;
 }
 
-/* Presentation section */
+
 .presentation {
   padding: 60px 40px;
   text-align: center;
@@ -113,7 +111,7 @@ footer {
   line-height: 1.8;
 }
 
-/* Naturbilder section med Grid */
+
 .nature-images {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -135,7 +133,7 @@ footer {
   transform: scale(1.05);
 }
 
-/* Link grid */
+
 .link-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -162,7 +160,7 @@ footer {
   transform: translateY(-5px);
 }
 
-/* ===== PRODUKTSIDA – FLEX I GRID ===== */
+
 .products-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -242,7 +240,6 @@ footer {
   background-color: #5f6f5d;
 }
 
-/* ===== OM OSS SIDA – GRID LAYOUT ===== */
 .about-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -298,7 +295,7 @@ footer {
   color: #333;
 }
 
-/* Kontaktformulär */
+
 .contact {
   padding: 60px 40px;
   background-color: #f6efe8;
@@ -354,7 +351,7 @@ footer {
   background-color: #5f6f5d;
 }
 
-/* Responsive design */
+
 @media (max-width: 768px) {
   header {
     grid-template-columns: 1fr;
